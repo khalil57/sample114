@@ -56,7 +56,7 @@ if (intval($apiVersion) < 39) {
 }
 
 // build api endpoint url
-$gatewayUrl = "https://${prefix}gateway.mastercard.com/api/rest/version/${apiVersion}/merchant/${merchantId}";
+$gatewayUrl = "https://nbe.gateway.mastercard.com/api/rest/version/53/merchant/testnbetest";
 
 // parse query string
 $query = array();
